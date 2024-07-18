@@ -242,6 +242,7 @@ text-align: left;
     height: 7.5rem;
     display: flex;
     flex-direction: column;
+    margin-bottom: 5.5rem;
 }
 .bmi h1{
     color: rgb(255, 255, 255);
@@ -262,3 +263,55 @@ text-align: left;
 }
 /*BMI end */
 
+/*calculator*/
+
+.calculator{
+    margin:0 auto;
+    width: 90rem;
+    height: 30.4375rem;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+}
+.calculator .chart{
+    margin-top: 3.25rem;
+    margin-left: 11.6875rem;
+    display: flex;
+    flex-direction: column;
+}
+.calculator .chart h1{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.75rem;
+font-weight: 900;
+line-height: 120%;
+text-align: left;
+margin-bottom: 3.25rem;
+}
+.calculator .chart table{
+    background-color: rgb(255, 255, 255, 0.1);
+    
+}
+#bold{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 500;
+
+background: rgb(34, 34, 34);
+}
+#light{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: left;
+    background: rgb(34, 34, 34);
+}
+/*calculator end*/
