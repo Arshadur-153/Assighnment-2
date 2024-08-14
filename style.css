@@ -112,9 +112,6 @@ color: white;
 padding: 1rem 2.5rem;
 border-color: aliceblue;
 }
-.picture-part{
-
-}
 .picture-part .free{
     position: relative;
     bottom: -230px;
@@ -305,8 +302,8 @@ text-align: left;
     margin-top: 1.875rem;
     border-radius: 18px;
     margin-bottom: 30px;
-    width: 70%;
     margin-right: 30px;
+
 }
 
 /*run end*/
@@ -879,6 +876,7 @@ footer h4{
 }
 .bmi h1,p{
     text-align: center;
+    margin-left: 30px;
 }
 .calculator{
     flex-direction: column;
@@ -896,6 +894,12 @@ width: 100%;
 }
 .block{
     flex-direction: column;
+}
+header .banner{
+    padding-left: 50px;
+}
+.picture-part{
+ margin-left: 80px;
 }
 }
 
